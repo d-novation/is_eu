@@ -14,8 +14,11 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
+      "psr-4": {
+        "Dnovation\\": "src/Dnovation/"
+      },
       "files": [
-        "src/is_eu.php"
+        "src/Dnovation/is_eu.php"
       ]
     }
   }
