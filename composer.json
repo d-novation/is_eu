@@ -1,0 +1,21 @@
+{
+    "name": "d-novation/is_eu",
+    "description": "Сheck that the country is a EU member state by 2 character country code (iso 3166)",
+    "type": "library",
+    "require": {
+      "php": ">=7.4"
+    },
+    "license": "proprietary",
+    "authors": [
+      {
+        "name": "D-novation",
+        "email": "office@d-novation.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "files": [
+        "src/is_eu.php"
+      ]
+    }
+  }
